@@ -8,8 +8,14 @@ public class Question {
 	int a;
 	President drump = new President();
 
-	public void introductionQuestions() {
-
+//	public void introductionQuestions() {
+//
+//	}
+	
+	public void conclusion() {
+		System.out.println("Your disapproval rate: " + drump.getDisapprovalRate());
+		System.out.println("Your approval rate: " + drump.getApprovalRate());
+        System.out.println();
 	}
 
 	public int question1() {
@@ -33,9 +39,10 @@ public class Question {
 			System.out.println("The only thing worse than German food is the German chancellor!");
 
 		}
-		System.out.println("Your disapproval rate: " + drump.getDisapprovalRate());
-		System.out.println("Your approval rate: " + drump.getApprovalRate());
-
+//		System.out.println("Your disapproval rate: " + drump.getDisapprovalRate());
+//		System.out.println("Your approval rate: " + drump.getApprovalRate());
+//        System.out.println();
+		conclusion();
 		return (drump.getDisapprovalRate());
 
 	}
@@ -59,11 +66,10 @@ public class Question {
         } else {
             drump.increaseApprovalRate(20);
             System.out.println(
-                    "Real American, healthy food. My doctor said I have great genes, and my health is perfect. I didn’t even bribe him... that much... Unlike that pornstar...");
+                    "Real American, healthy food. My doctor said I have great genes, and my health is perfect. I didn’t even bribe him... that much... Unlike that movie star, Stormy, Stromae, or something...");
 
         }
-        System.out.println("Your disapproval rate: " + drump.getDisapprovalRate());
-        System.out.println("Your approval rate: " + drump.getApprovalRate());
+        conclusion();
         return (drump.getDisapprovalRate());
 
     }
@@ -90,8 +96,7 @@ public class Question {
                     "Real American, healthy food. My doctor said I have great genes, and my health is perfect. I didn’t even bribe him... that much... Unlike that pornstar...");
 
         }
-        System.out.println("Your disapproval rate: " + drump.getDisapprovalRate());
-        System.out.println("Your approval rate: " + drump.getApprovalRate());
+        conclusion();
         return (drump.getDisapprovalRate());
 
     }
@@ -118,8 +123,7 @@ public int question4() {
                     "Real American, healthy food. My doctor said I have great genes, and my health is perfect. I didn’t even bribe him... that much... Unlike that pornstar...");
 
         }
-        System.out.println("Your disapproval rate: " + drump.getDisapprovalRate());
-        System.out.println("Your approval rate: " + drump.getApprovalRate());
+        conclusion();
         return (drump.getDisapprovalRate());
 
     }
@@ -146,8 +150,7 @@ public int question4() {
                     "Real American, healthy food. My doctor said I have great genes, and my health is perfect. I didn’t even bribe him... that much... Unlike that pornstar...");
 
         }
-        System.out.println("Your disapproval rate: " + drump.getDisapprovalRate());
-        System.out.println("Your approval rate: " + drump.getApprovalRate());
+        conclusion();
         return (drump.getDisapprovalRate());
 
     }
@@ -174,8 +177,7 @@ public int question4() {
                     "Real American, healthy food. My doctor said I have great genes, and my health is perfect. I didn’t even bribe him... that much... Unlike that pornstar...");
 
         }
-        System.out.println("Your disapproval rate: " + drump.getDisapprovalRate());
-        System.out.println("Your approval rate: " + drump.getApprovalRate());
+        conclusion();
         return (drump.getDisapprovalRate());
 
     }
@@ -202,8 +204,7 @@ public int question7() {
                 "Real American, healthy food. My doctor said I have great genes, and my health is perfect. I didn’t even bribe him... that much... Unlike that pornstar...");
 
     }
-    System.out.println("Your disapproval rate: " + drump.getDisapprovalRate());
-    System.out.println("Your approval rate: " + drump.getApprovalRate());
+    conclusion();
     return (drump.getDisapprovalRate());
 
 }
@@ -230,8 +231,7 @@ public int question7() {
                     "Real American, healthy food. My doctor said I have great genes, and my health is perfect. I didn’t even bribe him... that much... Unlike that pornstar...");
 
         }
-        System.out.println("Your disapproval rate: " + drump.getDisapprovalRate());
-        System.out.println("Your approval rate: " + drump.getApprovalRate());
+        conclusion();
         return (drump.getDisapprovalRate());
 
     }
@@ -258,8 +258,7 @@ public int question9() {
                 "Real American, healthy food. My doctor said I have great genes, and my health is perfect. I didn’t even bribe him... that much... Unlike that pornstar...");
 
     }
-    System.out.println("Your disapproval rate: " + drump.getDisapprovalRate());
-    System.out.println("Your approval rate: " + drump.getApprovalRate());
+    conclusion();
     return (drump.getDisapprovalRate());
 
 }
@@ -286,8 +285,7 @@ public int question9() {
                     "Real American, healthy food. My doctor said I have great genes, and my health is perfect. I didn’t even bribe him... that much... Unlike that pornstar...");
 
         }
-        System.out.println("Your disapproval rate: " + drump.getDisapprovalRate());
-        System.out.println("Your approval rate: " + drump.getApprovalRate());
+        conclusion();
         return (drump.getDisapprovalRate());
 
     }
