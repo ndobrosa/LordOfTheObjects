@@ -35,25 +35,24 @@ public class DrumpGameDriver {
 				if (disRating < 30) {
 					disRating = qs.question5();
 				}
+//				if (disRating < 30) {
+//					disRating = qs.question6();
+//				}
+//
+//				if (disRating < 30) {
+//					disRating = qs.question7();
+//				}
+//				if (disRating < 30) {
+//					disRating = qs.question8();
+//				}
+//				if (disRating < 30) {
+//					disRating = qs.question9();
+//				}
+//				if (disRating < 30) {
+//					disRating = qs.question10();
+//				}
 				if (disRating < 30) {
-					disRating = qs.question6();
-				}
-
-				if (disRating < 30) {
-					disRating = qs.question7();
-				}
-				if (disRating < 30) {
-					disRating = qs.question8();
-				}
-				if (disRating < 30) {
-					disRating = qs.question9();
-				}
-				if (disRating < 30) {
-					disRating = qs.question10();
-				}
-				if (disRating < 30) {
-					System.out.println(
-							"You win. You will now be able to bring your parents from Eastern Europe. You will live in happily ever after in a Mannhattan penthouse with interior made out of gold.");
+					System.out.println("You win. You will now be able to bring your parents from Eastern Europe. You will live in happily ever after in a Mannhattan penthouse with interior made out of gold.");
 				} else {
 					System.out.println(
 							"You lost your one opportunity to marry the greatest president god ever created. This may be a good time to start writing a book about the time you met The Drump.");
